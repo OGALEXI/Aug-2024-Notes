@@ -1,0 +1,10 @@
+#cat-img2 {
+    border-radius: 50%;
+    height: 100px
+}
+
+#prof-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}

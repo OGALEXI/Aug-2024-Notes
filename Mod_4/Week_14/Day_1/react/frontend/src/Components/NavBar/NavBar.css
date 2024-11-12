@@ -1,0 +1,25 @@
+#nav-bar {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#nav-links {
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav-bar > div > ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-lis {
+    list-style: none;
+    padding-right: 10px;
+    color: white
+}
