@@ -1,0 +1,30 @@
+#gl-nav {
+    background-color: black;
+    height: 45px;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#gl-nav > h1 {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#linkie-box {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    color: white;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
