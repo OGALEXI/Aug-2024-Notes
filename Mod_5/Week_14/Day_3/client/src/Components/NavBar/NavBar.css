@@ -1,0 +1,33 @@
+#nav-bar {
+    background-color: rgb(145, 61, 110);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 50px;
+}
+
+#nav-list {
+    margin: 0px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.linky {
+    list-style: none;
+    color: white;
+}
+
+.linky > .linky-link {
+    padding: 0px 8px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+.linky:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

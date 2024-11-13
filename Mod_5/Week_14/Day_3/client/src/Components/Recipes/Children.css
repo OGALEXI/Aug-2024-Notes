@@ -1,0 +1,38 @@
+.recipe-btn {
+    border: solid 2px rgb(145, 61, 110);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+
+.recipe-btn:hover {
+    cursor: pointer;
+    border: solid 2px rgb(231, 57, 159);
+    box-shadow: rgba(231, 57, 159, 0.432) 0px 3px 8px;
+}
+
+#recipe-container {
+    display: flex;
+}
+
+#rec-det-box {
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px rgb(145, 61, 110);
+    width: fit-content;
+    border-radius: 3px;
+}
+
+#rec-det-box > h1 {
+    padding: 5px;
+    margin: 0px;
+}
+
+#tut-box {
+    padding: 20px
+}
