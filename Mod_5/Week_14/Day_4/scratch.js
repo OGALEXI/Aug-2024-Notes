@@ -62,4 +62,11 @@ Providers take in a prop called value
 </PupContext.Provider>
 
 
+If you want ALL COMPONENTS to access the context
+
+You can wrap it around <App />
+
+Otherwise if you only need some components to access it
+then wrap it around whatever component and its children need it
+
 */
