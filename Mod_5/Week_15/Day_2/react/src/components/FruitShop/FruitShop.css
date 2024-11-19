@@ -1,0 +1,11 @@
+.fruit-card {
+    background-color: rgb(228, 228, 228);
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.delete-fruit {
+    cursor: pointer;
+}
