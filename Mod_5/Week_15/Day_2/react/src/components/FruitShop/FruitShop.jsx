@@ -11,19 +11,16 @@ import './FruitShop.css'
 
 function FruitShop() {
     const dispatch = useDispatch(); ///manipulate
-    const fruitsState = useSelector((state) => state.fruitState.allFruits) //consume/subscribe
-    const [fruits, setFruits] = useState([])
+    const fruits = useSelector((state) => state.fruitState.allFruits) //consume/subscribe
 
     const deleteFruit = (fruitId) => {
         dispatch(deleteFruitAction(fruitId))
-        setFruits(fruitsState)
-    }
 
+    }
 
     useEffect(() => {
         dispatch(loadFruitsAction()); //Manipulating the state
-        setFruits(fruitsState)
-    }, [fruits])
+    }, [])
 
     return (
       <>
@@ -34,6 +31,7 @@ function FruitShop() {
                     <h2>{fruit.name}</h2>
                     <h3>{fruit.description}</h3>
                     <button onClick={() => deleteFruit(fruit.id)} className="delete-fruit">x</button>
+ 
                 </div>
             ))
         }

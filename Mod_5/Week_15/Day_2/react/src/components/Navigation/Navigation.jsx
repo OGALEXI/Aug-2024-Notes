@@ -8,6 +8,7 @@ function Navigation() {
         <Link to='/'>Home</Link>
         <Link to='/fruit-shop'>Fruit Shop</Link>
         <Link to="/add-fruit">Add a Fruit</Link>
+        <Link to="/edit-fruit">Edit Fruit</Link>
       </nav>
     )
 }

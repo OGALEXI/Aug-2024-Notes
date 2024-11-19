@@ -4,6 +4,7 @@ import FruitShop from './components/FruitShop/FruitShop';
 import Navigation from './components/Navigation/Navigation';
 import Home from './components/Home/Home';
 import AddFruit from './components/AddFruit/AddFruit';
+import EditFruit from './components/EditFruit/EditFruit';
 
 //Create a layout component so that Nav can be above everything else always
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/add-fruit',
         element: <AddFruit />
+      },
+      {
+        path: '/edit-fruit',
+        element: <EditFruit />
       }
     ]
   }
