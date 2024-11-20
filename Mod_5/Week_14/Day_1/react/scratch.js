@@ -42,6 +42,7 @@ document.getElementById('idk').appendChild(p)
 
 //npm create vite@latest frontend -- --template react
 
+
 //You can create jsx elements in variables in react
 //You want to wrap JSX in parenthesis
 
