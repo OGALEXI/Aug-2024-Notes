@@ -12,7 +12,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchFruitsThunk())
+    dispatch(fetchFruitsThunk()) 
   }, [dispatch]) //Dispatch will never change, thus useEffect will only be executed after
   // the first render
 

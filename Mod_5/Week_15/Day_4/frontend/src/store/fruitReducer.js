@@ -48,7 +48,7 @@ export const addFruitThunk = (newFruit) => async (dispatch) => {
         dispatch(addFruit(fruit));
         return fruit;
     } else {
-        return { message: "Hey this broke"}
+        return { Errmessage: "Hey this broke"}
     }
 }
 
