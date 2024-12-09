@@ -186,7 +186,7 @@ bmw_guy = Car("BMW", "m3", 2005, 15000)
 
 bmw_guy.breakdown()
 
-# Inheritence in python
+# Inheritance in python
 
 class Motorcycle(Car):
     def __init__(self, make, model, year, price, ccs):
