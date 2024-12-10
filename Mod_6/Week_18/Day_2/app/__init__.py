@@ -1,6 +1,7 @@
 from flask import Flask
 from .config import Config
-from .routes import cats
+from .routes import cats #Routes
+from .models import db #db object
 
 
 # CREATE OUR FLASK SERVER
@@ -10,6 +11,9 @@ app.config.from_object(Config)
 
 # Connect our cat routes to our server
 app.register_blueprint(cats.bp)
+
+db.init_app(app) #Connect server with db object
+
 
 @app.route('/')
 def home():
